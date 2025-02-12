@@ -93,6 +93,9 @@
   left: 0px;
 }
 
+.tabbrowser-tab[soundplaying]:not([muted], [activemedia-blocked], [soundplaying-scheduledremoval]) {
+  overflow: visible !important;
+}
 
 .tabbrowser-tab[soundplaying] .tab-icon-stack::after {
   background: url('note-indicator.svg') no-repeat;
