@@ -52,7 +52,6 @@
   background: url('note-indicator.svg') no-repeat;
 }
 
-#tabbrowser-tabs,
 #zen-essentials-container {
   overflow: visible !important;
   .tabbrowser-tab[soundplaying]:not([muted], [activemedia-blocked], [soundplaying-scheduledremoval]) {
